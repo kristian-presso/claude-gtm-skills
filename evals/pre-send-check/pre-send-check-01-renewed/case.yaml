@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: pre-send-check-01-renewed
+tags: [pre-send-check, fire]
+context:
+  scaffold_script: setup.sh
