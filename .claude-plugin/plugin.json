@@ -6,7 +6,7 @@
     "name": "Kristian Papadakis",
     "url": "https://kristianpapadakis.com"
   },
-  "homepage": "https://github.com/kristian-presso/claude-skills",
+  "homepage": "https://github.com/kristian-presso/claude-gtm-skills",
   "license": "MIT",
   "keywords": [
     "go-to-market",
@@ -17,5 +17,6 @@
     "deliverability",
     "prospecting",
     "signals"
-  ]
+  ],
+  "repository": "https://github.com/kristian-presso/claude-gtm-skills"
 }

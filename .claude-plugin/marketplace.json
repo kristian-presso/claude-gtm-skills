@@ -1,0 +1,23 @@
+{
+  "name": "claude-gtm-skills",
+  "owner": {
+    "name": "Kristian Papadakis",
+    "url": "https://kristianpapadakis.com"
+  },
+  "description": "GTM skills for Claude, as a standalone Claude Code marketplace. All departments in one place: https://github.com/kristian-presso/claude-skills",
+  "plugins": [
+    {
+      "name": "gtm",
+      "source": "./",
+      "description": "Outbound for founders and small B2B teams: find prospects from public signals with a sourced reason to contact each, and run sequences that do not burn your sending domains.",
+      "category": "sales",
+      "keywords": [
+        "sales",
+        "outbound",
+        "prospecting",
+        "deliverability"
+      ],
+      "homepage": "https://github.com/kristian-presso/claude-gtm-skills"
+    }
+  ]
+}
