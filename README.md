@@ -9,7 +9,7 @@
 
 One department of [claude-skills](https://github.com/kristian-presso/claude-skills), where all departments live in one place. Free, MIT licensed, no sign-up.
 
-Four skills that cover the path from "who should I go after, and in what order?" to "the first messages are drafted and landing in inboxes". Written for people doing the selling themselves: founders, account executives with a named territory, account managers growing a book, consultants. Each works with no integrations; where a tool such as web search helps, the skill uses it if present and falls back to working from what you give it. Run them in order, or use any one on its own.
+Six skills that cover the path from "who should I go after, and in what order?" to "the first messages are drafted and landing in inboxes". Written for people doing the selling themselves: founders, account executives with a named territory, account managers growing a book, consultants. Each works with no integrations; where a tool such as web search helps, the skill uses it if present and falls back to working from what you give it. Run them in order, or use any one on its own.
 
 ## Skills
 
@@ -17,8 +17,10 @@ Four skills that cover the path from "who should I go after, and in what order?"
 | --- | --- |
 | [gtm-motion](skills/gtm-motion/SKILL.md) | You want a repeatable motion: which accounts, which signals, which personas, and a weekly routine. Start here. |
 | [signal-prospecting](skills/signal-prospecting/SKILL.md) | Finding prospects from public signals (funding, hiring, launches) with a sourced, dated reason to contact each one. |
+| [prospect-radar](skills/prospect-radar/SKILL.md) | You want new companies to contact every morning: builds narrow Google News and job-board feeds for your market, tests them, then turns each run into named accounts with a reason, a fit check and the people to reach. |
 | [account-play](skills/account-play/SKILL.md) | One account deserves real effort: map who decides, propose two or three use cases, plan a multi-person play and draft the first touches. |
 | [outbound-sequences](skills/outbound-sequences/SKILL.md) | Designing an outbound sequence, with a deliverability pre-flight before a single email goes out. |
+| [pre-send-check](skills/pre-send-check/SKILL.md) | A draft is about to go out: eight checks against what already happened (open threads, meetings, renewals, owed follow-ups, ownership, dates, address, opt-outs), then a verdict. |
 
 ## Tested, not just written
 
@@ -30,6 +32,8 @@ Every skill is evaluated with Claude Code's built-in `claude plugin eval`: five 
 | signal-prospecting | 0.92 | 0.65 | +0.27 |
 | account-play | 0.95 | 0.68 | +0.27 |
 | outbound-sequences | 1.00 | 0.77 | +0.23 |
+| prospect-radar | 0.85 | 0.70 | +0.15 |
+| pre-send-check | 1.00 | 0.70 | +0.30 |
 
 Small gains mean plain Claude already does well there; those skills earn their place on the cases it gets wrong.
 
